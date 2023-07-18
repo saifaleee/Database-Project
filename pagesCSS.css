@@ -1,0 +1,129 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background-color: #ecf0f1;
+    font-family: sans-serif;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+
+.header {
+    background-color: #3498db;
+    height: fit-content;
+    color: #fff;
+    font-size: 28px;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.container {
+    display: flex;
+}
+
+.nav-sidebar {
+    background-color: #3498db;
+    width: 150px;
+    box-sizing: border-box;
+    min-height: calc(100vh - 72px);
+}
+
+    .nav-sidebar ul {
+        list-style-type: none;
+        padding: 15px;
+    }
+
+    .nav-sidebar li {
+        margin-top: 25px;
+    }
+
+    .nav-sidebar a {
+        text-decoration: none;
+        color: #FFFFFF;
+        font-size: 16px;
+    }
+
+
+.complete-container {
+    flex: 1;
+    background-color: #FFFFFF;
+    padding: 20px;
+    min-height: calc(100vh - 80px);
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.dropdown {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#dropdownselect {
+    padding: 10px 20px;
+    margin-bottom: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #00BFFF;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+
+.table-layout table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table-layout th, .table-layout td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.table-layout th {
+    background-color: #00BFFF;
+    color: #FFFFFF;
+}
+
+.table-layout tr {
+    background-color: #f2f2f2;
+}
+
+    .table-layout tr:hover {
+        background-color: #ddd;
+    }
+
+input[type=text], input[type="password"] {
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    padding: 12px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: #ecf0f1;
+    color: #333;
+    width: 94%;
+}
+
+input[type="submit"] {
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    background-color: #3498db;
+    color: #fff;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+    input[type="submit"]:hover {
+        background-color: #2980b9;
+    }
